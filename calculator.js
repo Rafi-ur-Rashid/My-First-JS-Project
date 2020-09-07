@@ -1,0 +1,12 @@
+var n1=prompt('Enter 1st nummber');
+var n2=prompt('Enter 2nd nummber');
+n1=parseInt(n1,10);
+n2=parseInt(n2,10);
+var sum= n1 + n2;
+var sub= n1 - n2;
+var mul= n1*n2;
+var div= n1/n2;
+document.write("The sum is: " + sum + "</br>");
+document.write("The sub is: " + sub + "</br>");
+document.write("The mult is: "+mul+"</br>");
+document.write("The div is: "+div.toFixed(2));
